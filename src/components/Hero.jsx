@@ -1,4 +1,3 @@
-import React from 'react'
 import {BsGithub, BsLinkedin} from "react-icons/bs"
 import { motion } from 'framer-motion'
 import resume from "../assets/Chibueze Muoneke-Resume.pdf"
@@ -21,7 +20,7 @@ const Hero = () => {
             }}
         >
             <h2 className='text-[2rem] font-medium'>Hi i'm Chibueze Muoneke</h2>
-            <p className='max-w-[500px] py-8 text-[#706f6c]'> Your friendly neighborhood frontend developer, I'm a Computer Science student at Babcock University with a passion for problem solving. With a strong foundation in Computer Science and Engineering principles and programming languages such as JavaScript/TypeScript, Python and C++, I am constantly seeking opportunities to learn and apply my skills in new and innovative ways. </p>
+            <p className='max-w-[500px] py-8 text-[#706f6c]'> Your friendly neighborhood frontend developer with a growing intrest in mobile & backend development, I`'m a Computer Science student at Babcock University with a passion for problem solving. With a strong foundation in Computer Science and Engineering principles and programming languages such as JavaScript/TypeScript, Python and C++, I am constantly seeking opportunities to learn and apply my skills in new and innovative ways. </p>
             <motion.a 
                 className='px-4 py-2 bg-[#1b1b18] text-white rounded-md' 
                 whileHover={{scale: 1.05}}

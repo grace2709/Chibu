@@ -1,4 +1,3 @@
-import React from 'react'
 import { motion } from "framer-motion"
 
 const About = () => {
@@ -14,7 +13,7 @@ const About = () => {
             duration: 1
         }}
     >
-        <div className='pb-16' id='about'>
+        <div className='pb-16 pt-32' id='about'>
             <h3 className='text-2xl font-semibold'>About me</h3>
             <p className='text-[#706f6c]'>A few things about me</p>
         </div>

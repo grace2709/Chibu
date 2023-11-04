@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import {BsPlus} from "react-icons/bs"
 import { motion } from 'framer-motion'
 
@@ -26,7 +26,7 @@ const Navbar = () => {
             <li><a href="#projects" className='text-[#706f6c] hover:text-[#1b1b18]'>Projects</a></li>
             <li><a href="#contact" className='text-[#706f6c] hover:text-[#1b1b18]'>Contact</a></li>
         </ul>
-        <div className='flex flex-col gap-4'>
+        <div className='flex flex-col gap-4 sm:hidden'>
             <p 
                 className='sm:hidden flex items-center'
                 onClick={() => setIsOpen(!isOpen)}    
