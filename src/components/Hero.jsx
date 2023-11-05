@@ -27,7 +27,7 @@ const Hero = () => {
                 href={resume}
                 target='blank'
             >Resume</motion.a>
-            <div className='pt-8 flex items-center gap-4'>
+            <div className='pt-8 flex items-center gap-6'>
                 <a href="https://github.com/ChibuTheDev" target='blank'><BsGithub size={25}/></a>
                 <a href="https://www.linkedin.com/in/chibueze-muoneke-9635431b3/" target='blank'><BsLinkedin size={25}/></a>
             </div>

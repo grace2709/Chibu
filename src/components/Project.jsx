@@ -8,7 +8,7 @@ const Project = () => {
             <h3 className='text-2xl font-semibold'>Projects</h3>
             <p className='text-[#706f6c]'>A few selected projects</p>
         </div>
-        <div className='grid grid-cols-1 sm:grid-cols-3 gap-2 py-16 w-full'>
+        <div className='grid grid-cols-1 sm:grid-cols-3 gap-4 py-16 w-full'>
             <div className='border-[1px] border-[#1b1b18] py-8 px-4'>
                 <h3 className='text-[20px]'>Pig Game app</h3>
                 <p className='py-4 text-[#706f6c]'> A fun game for friends to play. Developed to improve my knowledge of Javascript. Working on implemnting realtime connection with web sockets for realtime online play. Best viewed on desktop 😎 </p>

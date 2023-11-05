@@ -28,12 +28,12 @@ const Navbar = () => {
         </ul>
         <div className='flex flex-col gap-4 sm:hidden'>
             <p 
-                className='sm:hidden flex items-center'
+                className='sm:hidden flex items-center text-[#706f6c]'
                 onClick={() => setIsOpen(!isOpen)}    
             >Menu<BsPlus size={20}/></p>
             {isOpen && (
                 <motion.ul 
-                    className='flex flex-col items-center gap-6 sm:hidden absolute top-[4rem] right-[1rem] bg-white shadow-2xl p-4 rounded-md'
+                    className='flex flex-col items-center gap-4 sm:hidden absolute top-[4rem] right-[1rem] bg-white shadow-2xl p-4 rounded-md'
                     initial={{
                         x: 100
                     }}
